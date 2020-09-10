@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    
+}
+body {
+    text-align: center;
+   
+}
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+h1 {
+    text-align: center;
+    font-size: 250%;
+    padding-top:100px;
+}
+.intro {
+    
+    background-color: lightblue;
+    margin: 0 auto;
+}
+img {
+    width: 700px;
+    height: 500px;
+}
+.timeline {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: cyan;
+    margin: 0 auto;
+}
+.small-text {
+    font-size: 12px;
+}
+ul {
+    text-align: left;
+    font-size: 16px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+.conclusion {
+    margin: auto 300px;
+    color: white;
+    margin: -10px auto;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    background-color: blue;
+    text-align: center;
+}
+#cern {
+    color: black;
+}

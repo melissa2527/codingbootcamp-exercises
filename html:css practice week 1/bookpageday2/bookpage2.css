@@ -1,0 +1,64 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+nav {
+    background-color: #515151;
+    padding: 30px;
+    font-size: 16px;
+    margin: auto;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-align: center;
+    margin: 20px;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.description {
+    background-color: #ffffff;
+    vertical-align: middle;
+    padding: 60px 60px;
+    display: inline-block;
+}
+.pic {
+    vertical-align: middle;
+    /* float: left; */
+}
+.text {
+    vertical-align: middle;
+    
+}
+footer {
+    text-align: center;
+    background-color: #212121;
+    padding: 50px;
+    color: white;
+    
+}
+.footer-box {
+    background-color: #f88e37;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    margin: auto 450px;
+    padding: 3.5px 10px;
+}
+.get-copy {
+    background-color: #f88e37;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    padding: 3.5px 5px;
+    margin: 5px 300px 150px 800px;
+}

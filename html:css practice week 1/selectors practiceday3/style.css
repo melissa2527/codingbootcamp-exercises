@@ -1,0 +1,32 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.heading {
+    text-align: center;
+    font-size: 180%;
+    padding-bottom: 15px;
+    border-bottom: 5px dashed burlywood;
+}
+#main {
+    margin: auto 300px;
+}
+h3 {
+    text-align: center;
+}
+li:nth-child(even) {
+    color: green;
+}
+h3 .second:last-child {
+    color: blue;
+}
+dt {
+    font-weight: bold;
+}
+dd:nth-child(6) {
+    text-decoration: underline;
+}
+dd:last-child {
+    font-family: sans-serif;
+}
