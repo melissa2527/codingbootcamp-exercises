@@ -1,0 +1,73 @@
+html {
+    margin: 0;
+}
+body { 
+    box-sizing: border-box;
+}
+.header {
+    background-color: yellow;
+    height: 60px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+nav li {
+    display: inline;
+    text-align: center;
+    padding: 20px;
+}
+p {
+    font-size: 18px;
+}
+div h1 {
+    padding:20px auto 20px 30px;
+}
+.banner {
+    background-image: url('banner.jpg');
+    color: white;
+    height: 400px;
+    font-size: 250%;
+    padding: 100px;
+    text-align: left;
+}
+.banner h1 {
+    padding-left: 100px;
+    padding-right: 400px;
+}
+.mission {
+    background-color: #FFE964;
+    /* height: 350px; */
+    padding: 100px 200px;
+}
+.mission h1 {
+    text-align: center;
+}
+h1 {
+   font-size: 50px;
+}
+.banner img {
+    height: 400px;
+    width: 100%;
+}
+.about {
+    background-color: white;
+    padding: 100px 200px;
+}
+.team {
+    background-color: #FF523D;
+    color: white;
+    padding: 100px 200px;
+}
+.team img {
+    display: block;
+    margin-left: auto;
+     margin-right: auto;
+     padding: 50px;
+    
+}
+.contact {
+    background-color: #223C88;
+    color: white;
+    padding: 100px 600px 150px 200px;
+}
+/* <a href="assignment (3)/graphics/banner.jpg" alt="banner"></a> */

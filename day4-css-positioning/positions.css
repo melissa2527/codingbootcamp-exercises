@@ -21,3 +21,28 @@ body {
     width: 200px;
     background-color:rgba(148, 198, 141, 0.5);
 }
+.three {
+    border: 2px solid black;
+    height: 300px;
+    width: 150px;
+    background: linear-gradient(-90deg, red, yellow);
+    margin: 20px;
+}
+.four {
+    border: 2px solid black;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    background-image: url(fox.jpeg);
+    opacity: 0.5;
+    background-attachment: fixed;
+}
+.five {
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url(fox.jpeg);
+    opacity: 0.5;
+    background-attachment: scroll;
+}
