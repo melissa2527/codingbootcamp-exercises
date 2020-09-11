@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+html {
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 10vh;
+    text-align: center;
+    font-variant: small-caps;
+    text-shadow: 5px 5px red;
+    font-family: 'Roboto Slab';
+}
+h2 {
+    font-size:150%;
+    font-family: 'Roboto Slab';
+}
+p {
+    font-family: 'Raleway';
+}
+.heading p {
+    letter-spacing: 1px;
+    text-align: center;
+}
+.one h2 {
+    text-transform: uppercase;
+}
+.two h2 {
+    text-align: right;
+    font-weight: lighter;
+}
+.three {
+    text-decoration: line-through;
+    text-decoration-style: wavy;
+    text-indent: 40px;
+    line-height: 1.8;
+    text-align: justify;
+}

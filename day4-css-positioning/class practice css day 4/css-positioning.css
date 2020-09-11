@@ -1,0 +1,37 @@
+html {
+    background: transparent url('background-grid.png') left top repeat scroll;
+}
+body {
+    margin: 0;
+    height: 500px;
+    font-size: 4px;
+}
+div {
+    
+}
+.one {
+    border: 2px solid blue;
+    height: 100px;  
+    width: 100px;
+    opacity: 0;
+}
+.two {
+    border: 2px solid pink;
+    height: 50%;  
+    width: 50%;
+}
+.three {
+    border: 2px solid purple;
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    margin: 1em;
+    padding: 0.5em;
+}
+.four {
+    border: 2px solid orange;
+    width: 300px;
+    height: 50px;
+    background-color: lightcyan;
+    opacity: 0.5;
+}

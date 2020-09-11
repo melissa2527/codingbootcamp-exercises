@@ -1,3 +1,6 @@
+* {
+    margin: 0;
+}
 html {
     font-size: 18px;
     font-family: "Lato", Arial, sans-serif;
@@ -28,7 +31,7 @@ h2 {
 }
 .introduction, .conclusion {
     background-color:#D2D6EF;
-    
+
 }
 p {
     color: #555555;

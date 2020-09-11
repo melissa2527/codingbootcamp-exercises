@@ -31,10 +31,14 @@ a {
 }
 .pic {
     vertical-align: middle;
-    /* float: left; */
+    float: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 60px;
 }
 .text {
     vertical-align: middle;
+    margin: 65px 100px;
     
 }
 footer {
@@ -60,5 +64,13 @@ footer {
     display: block;
     text-align: center;
     padding: 3.5px 5px;
-    margin: 5px 300px 150px 800px;
+    margin: 5px 150px 150px 600px;
+}
+ul li {
+
+    margin-left: 400px;
+    
+}
+h1 {
+    font-size: 40px;
 }

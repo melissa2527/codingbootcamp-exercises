@@ -1,7 +1,10 @@
 body {
     box-sizing: border-box;
-    margin: 0;
+    margin: 10px;
     padding: 0;
+    border: 3px solid burlywood;
+    height: 100%;
+    padding-bottom: 150px;
 }
 .heading {
     text-align: center;
@@ -10,16 +13,18 @@ body {
     border-bottom: 5px dashed burlywood;
 }
 #main {
-    margin: auto 300px;
+    margin: auto;
+    display: block;
+    max-width: 35%;
 }
-h3 {
+h2 {
     text-align: center;
 }
-li:nth-child(even) {
+li:nth-child(odd) {
     color: green;
 }
-h3 .second:last-child {
-    color: blue;
+dl {
+    line-height: 20px;
 }
 dt {
     font-weight: bold;
