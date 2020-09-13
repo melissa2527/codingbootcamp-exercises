@@ -4,17 +4,55 @@
 html {
     box-sizing: border-box;
 }
-#container {
+.background {
     background-image: url('bg.jpg');
-    width: 100%;
-    height: 400px;
-    color: white;
+    background-repeat: space;
 }
-.first {
+#container {
+    padding: 50px;
+    color: white;
+
+}
+#container h1 {
+    font-size: 250%;
     text-align: center;
+    padding: 50px;
+    text-transform: uppercase;
+}
+#container p {
+    line-height: 150%;
+    padding-bottom: 100px;
+}
+.images {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 50px;
 }
 footer {
     background-color: #2D4823;
+    padding: 50px;
+    color: white;
+}
+footer a {
+    color: white;
+}
+footer h3 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 200%;
+}
+footer p {
+    line-height: 150%;
+}
+.circle {
+    background-color: #4F6A13;
+    border-radius: 50%;
+    height: 290px;
+    width: 290px;
+}
+.nature, .peace, .community {
+    text-align: center;
+    padding: auto;
 }
 
 Open Sans Regular - for regular text
