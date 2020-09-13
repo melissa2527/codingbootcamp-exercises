@@ -6,27 +6,23 @@ html {
 }
 .background {
     background-image: url('bg.jpg');
-    background-repeat: space;
+    background-repeat: cover;
+    width: 100%;
 }
 #container {
-    padding: 50px;
+    padding: 70px;
     color: white;
 
 }
 #container h1 {
     font-size: 250%;
     text-align: center;
-    padding: 50px;
+    padding-top: 50px;
     text-transform: uppercase;
 }
 #container p {
     line-height: 150%;
-    padding-bottom: 100px;
-}
-.images {
-    display: flex;
-    flex-flow: column wrap;
-    padding: 50px;
+    padding-top: 50px;
 }
 footer {
     background-color: #2D4823;
@@ -47,14 +43,25 @@ footer p {
 .circle {
     background-color: #4F6A13;
     border-radius: 50%;
-    height: 290px;
-    width: 290px;
+    height: 320px;
+    width: 320px;
 }
 .nature, .peace, .community {
     text-align: center;
-    padding: auto;
 }
-
-Open Sans Regular - for regular text
-Open Sans Bold - for bold text
-From the woods for heading 1
+.circle1 {
+    margin-left: 10vw;
+    margin-top: 20vh;
+}
+.circle2 {
+    margin-right: 10vw;
+    margin-top: 10vh;
+    /* position: relative; */
+}
+.circle3 {
+    margin-left: 10vw;
+    margin-bottom: 10vh;
+}
+.tent, .cell, .community {
+    margin-top: 15px;
+}

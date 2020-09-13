@@ -1,0 +1,17 @@
+.bottom span {
+    color: green;
+}
+
+/* www/
+    css/
+        style.css
+    img/
+        bg-image.jpg
+    index.html */
+
+    /* 
+    .my_element {
+        background-image: url ('img/bg.image.jpg');
+        background-attachment: fixed;
+        background-size: cover; 
+        background-repeat: no-repeat;*/
