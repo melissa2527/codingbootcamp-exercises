@@ -1,0 +1,31 @@
+footer {
+    background-color: whitesmoke;
+}
+
+.footer h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    text-align: middle;
+}
+/* .decorated {
+    height: 2px solid #54be54;
+    width: 50px;
+} */
+.footerimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+}
+.footerimg img {
+    padding-left:15px;
+    padding-right: 15px;
+}
+footer p {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: middle;
+}
