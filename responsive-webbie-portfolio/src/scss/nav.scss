@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    display: flex;
+    width: 100%;
+    font-family: 'Alegreya Sans';
+    font-weight: 400;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+nav :hover {
+    opacity: 0.5;
+}
+.nav li {
+    list-style-type: none;
+    background-color: #232323;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5px;  
+}
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+nav li :hover {
+    color: #54BE90;
+}
+#logo {
+    background-color: white;
+}
+#portfolio {
+    background-color: #54BE90;
+    color: #232323;
+}
+#portfolio :hover {
+    color: #232323;
+}

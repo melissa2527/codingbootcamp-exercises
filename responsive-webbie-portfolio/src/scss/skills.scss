@@ -1,0 +1,58 @@
+
+.skills {
+    padding: 15vh 10vh;
+}
+.skills h1 {
+    text-align: center;
+    color: #54BE90;
+    font-size: 3em;
+    text-transform: uppercase;
+    padding: 40px;
+}
+.chart {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.chartitem {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #232323;
+    padding-top: 1px;
+    margin: 10px;
+    list-style-type: none;
+    height: 35px;
+}
+.language {
+    background-color: #232323;
+    color: white;
+    width: 6em;
+    text-align: center;
+}
+.bargraph {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: lightgray;
+    text-align: right;
+}
+#bar70 {
+    background-color: #54BE90;
+    width: 70%;
+}
+#bar80 {
+    background-color: #54BE90;
+    width: 80%;
+}
+.percent {
+    text-align: right;
+    margin-right: 0;
+}
+
+#bar60 {
+    background-color: #54BE90;
+    width: 60%;
+}
+#bar90 {
+    background-color: #54BE90;
+    width: 90%;
+}

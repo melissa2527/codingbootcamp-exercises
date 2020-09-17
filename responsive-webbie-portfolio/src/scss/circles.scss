@@ -1,0 +1,40 @@
+
+.circles {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-color: #232323;
+    height: 50vh;
+}
+.circles h3 {
+    align-content: center;
+    justify-content: center;
+    color: #54BE90;
+}
+.circles p {
+    color: white;
+    padding: 5px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+.semicircle {
+    display: flex;
+    background-color: #232323;
+    flex-direction: row;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.half {
+    height: 100px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 0 0 100px 100px;
+    justify-content: space-between; 
+    /* padding-left: 10vw;
+    padding-right: 10vw; */
+    background-color: white;
+}

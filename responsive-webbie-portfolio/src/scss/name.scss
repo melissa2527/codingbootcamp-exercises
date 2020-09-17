@@ -1,0 +1,33 @@
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30vh;
+    height: 70vh;
+    color: white;
+    background-image: url('/img/meadow.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* if background-size contain doesn't work, use cover */
+}
+.name h1, .name h2 {
+    justify-content:center;
+    align-items: center;
+}
+.name h1 {
+    font-size: 8vh;
+}
+.name h2 {
+    font-size: 6.5vh;
+    padding-bottom: 50px;
+}
+.aneta {
+    text-decoration: underline;
+    text-decoration-color: white;
+    font-size: 9vh;
+    color: #54be90;
+    font-weight: 800;
+    text-shadow: 3px 3px black;
+}

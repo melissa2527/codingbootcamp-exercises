@@ -1,0 +1,13 @@
+.statement {
+    flex-direction: column;
+    background-color: white;
+}
+#statement {
+    color: #232323;
+    text-align: center;
+    padding: 10vh;
+    line-height: 200%;
+}
+.statement p :first-child {
+    line-height: 10px; 
+}
