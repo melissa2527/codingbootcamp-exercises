@@ -1,0 +1,17 @@
+.schedule {
+    border: 1px solid gray;
+}
+.schedule th {
+    background-color: lightblue;
+}
+.schedule td {
+    border: 1px solid gray;
+    padding: 10px 15px;
+}
+.schedule tr :nth-child(even) {
+    background-color: lightblue;
+}
+.row-delayed {
+    background-color: yellow !important;
+    /* display: none; */
+}
