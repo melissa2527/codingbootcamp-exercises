@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+ 
+html, body {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+ 
+body {
+    margin: 0;
+    padding: 0;
+}
+ 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    /* margin-top: 4rem; */
+    margin: auto;
+}
+ h1 {
+     padding: 50px;
+     justify-items: center;
+ }
+.button {
+    display: block;
+    margin: 2rem auto;
+    justify-items: center;
+    align-items: center;
+}
+ 
+.quote {
+    max-width: 40rem;
+}
+ 
+.quote img {
+    display: block;
+    margin: 2rem auto;
+}
