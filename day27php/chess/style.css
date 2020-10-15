@@ -1,0 +1,11 @@
+body {
+    background-color: lightblue;
+}
+
+.dark {
+    background-color: gray;
+}
+
+.light {
+    background-color: seashell;
+}
